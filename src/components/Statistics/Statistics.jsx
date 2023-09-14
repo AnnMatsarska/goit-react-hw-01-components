@@ -6,7 +6,7 @@ export const Statistics = ({ tittle = 'Upload stats', stats }) => {
     <section className={css.statistics}>
       <h2 className={css.title}>{tittle}</h2>
 
-      <ul className={css.statList}>
+      <ul className={css['stat-list']}>
         {stats.map(({ id, label, percentage }) => (
           <li className={css.item} key={id}>
             <span className={css.label}>{label}</span>
