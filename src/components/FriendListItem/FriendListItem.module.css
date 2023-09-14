@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 2px rgb(120, 129, 145);
+  border: 1px solid rgb(120, 129, 145);
+
+  text-align: center;
+
+  padding: 6px 12px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #727578;
+}
